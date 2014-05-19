@@ -1,2 +1,6 @@
 .DB_Store
 */.DB_Store
+
+proj.android/
+proj.ios/
+proj.win32/
