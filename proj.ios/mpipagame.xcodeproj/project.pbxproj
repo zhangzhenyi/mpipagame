@@ -240,6 +240,14 @@
 		379BB9D317F03F3700829B88 /* GUIReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99117F03F3700829B88 /* GUIReader.cpp */; };
 		379BB9D417F03F3700829B88 /* SceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99317F03F3700829B88 /* SceneReader.cpp */; };
 		46513EB1187BFBA200B5ABE1 /* UITouchGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46513EAF187BFBA200B5ABE1 /* UITouchGroup.cpp */; };
+		774A975F192BB57200EECB5E /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 774A975E192BB57200EECB5E /* sound */; };
+		77B18E85192A54B6002D5FDF /* musicpu in Resources */ = {isa = PBXBuildFile; fileRef = 77B18E84192A54B6002D5FDF /* musicpu */; };
+		77B18E9B192A56F2002D5FDF /* LoadScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77B18E98192A56F2002D5FDF /* LoadScene.cpp */; };
+		77B18E9E192A5716002D5FDF /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77B18E9C192A5716002D5FDF /* MainScene.cpp */; };
+		77B18EA1192A5776002D5FDF /* PlayingMusic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77B18E9F192A5776002D5FDF /* PlayingMusic.cpp */; };
+		77B18EA4192A57D0002D5FDF /* Encyptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77B18EA2192A57D0002D5FDF /* Encyptor.cpp */; };
+		77B18EA7192A580F002D5FDF /* ShareCodeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77B18EA5192A580F002D5FDF /* ShareCodeFactory.cpp */; };
+		77B18EAA192A587B002D5FDF /* UserDataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77B18EA8192A587B002D5FDF /* UserDataManager.cpp */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
@@ -758,6 +766,21 @@
 		379BB99417F03F3700829B88 /* SceneReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneReader.h; sourceTree = "<group>"; };
 		46513EAF187BFBA200B5ABE1 /* UITouchGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UITouchGroup.cpp; sourceTree = "<group>"; };
 		46513EB0187BFBA200B5ABE1 /* UITouchGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchGroup.h; sourceTree = "<group>"; };
+		774A975D192BAEB400EECB5E /* GameMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMacroDefine.h; sourceTree = "<group>"; };
+		774A975E192BB57200EECB5E /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
+		77B18E84192A54B6002D5FDF /* musicpu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = musicpu; sourceTree = "<group>"; };
+		77B18E98192A56F2002D5FDF /* LoadScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadScene.cpp; sourceTree = "<group>"; };
+		77B18E99192A56F2002D5FDF /* LoadScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadScene.h; sourceTree = "<group>"; };
+		77B18E9C192A5716002D5FDF /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
+		77B18E9D192A5716002D5FDF /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		77B18E9F192A5776002D5FDF /* PlayingMusic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayingMusic.cpp; sourceTree = "<group>"; };
+		77B18EA0192A5776002D5FDF /* PlayingMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingMusic.h; sourceTree = "<group>"; };
+		77B18EA2192A57D0002D5FDF /* Encyptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Encyptor.cpp; sourceTree = "<group>"; };
+		77B18EA3192A57D0002D5FDF /* Encyptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encyptor.h; sourceTree = "<group>"; };
+		77B18EA5192A580F002D5FDF /* ShareCodeFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShareCodeFactory.cpp; sourceTree = "<group>"; };
+		77B18EA6192A580F002D5FDF /* ShareCodeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareCodeFactory.h; sourceTree = "<group>"; };
+		77B18EA8192A587B002D5FDF /* UserDataManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserDataManager.cpp; sourceTree = "<group>"; };
+		77B18EA9192A587B002D5FDF /* UserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataManager.h; sourceTree = "<group>"; };
 		7855E0DF153FEF240059DD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -1291,6 +1314,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				77B18E91192A56F2002D5FDF /* com */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
@@ -1887,9 +1911,88 @@
 			path = CocoStudio;
 			sourceTree = "<group>";
 		};
+		77B18E91192A56F2002D5FDF /* com */ = {
+			isa = PBXGroup;
+			children = (
+				77B18E92192A56F2002D5FDF /* aiyou */,
+			);
+			name = com;
+			path = ../Classes/com;
+			sourceTree = "<group>";
+		};
+		77B18E92192A56F2002D5FDF /* aiyou */ = {
+			isa = PBXGroup;
+			children = (
+				77B18E93192A56F2002D5FDF /* pipa */,
+			);
+			path = aiyou;
+			sourceTree = "<group>";
+		};
+		77B18E93192A56F2002D5FDF /* pipa */ = {
+			isa = PBXGroup;
+			children = (
+				77B18E94192A56F2002D5FDF /* dataaccess */,
+				77B18E95192A56F2002D5FDF /* share */,
+				77B18E96192A56F2002D5FDF /* utils */,
+				77B18E97192A56F2002D5FDF /* view */,
+				77B18E9A192A56F2002D5FDF /* yuepu */,
+				774A975D192BAEB400EECB5E /* GameMacroDefine.h */,
+			);
+			path = pipa;
+			sourceTree = "<group>";
+		};
+		77B18E94192A56F2002D5FDF /* dataaccess */ = {
+			isa = PBXGroup;
+			children = (
+				77B18EA8192A587B002D5FDF /* UserDataManager.cpp */,
+				77B18EA9192A587B002D5FDF /* UserDataManager.h */,
+			);
+			path = dataaccess;
+			sourceTree = "<group>";
+		};
+		77B18E95192A56F2002D5FDF /* share */ = {
+			isa = PBXGroup;
+			children = (
+				77B18EA5192A580F002D5FDF /* ShareCodeFactory.cpp */,
+				77B18EA6192A580F002D5FDF /* ShareCodeFactory.h */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		77B18E96192A56F2002D5FDF /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				77B18EA2192A57D0002D5FDF /* Encyptor.cpp */,
+				77B18EA3192A57D0002D5FDF /* Encyptor.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		77B18E97192A56F2002D5FDF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				77B18E98192A56F2002D5FDF /* LoadScene.cpp */,
+				77B18E99192A56F2002D5FDF /* LoadScene.h */,
+				77B18E9C192A5716002D5FDF /* MainScene.cpp */,
+				77B18E9D192A5716002D5FDF /* MainScene.h */,
+				77B18E9F192A5776002D5FDF /* PlayingMusic.cpp */,
+				77B18EA0192A5776002D5FDF /* PlayingMusic.h */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		77B18E9A192A56F2002D5FDF /* yuepu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = yuepu;
+			sourceTree = "<group>";
+		};
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				774A975E192BB57200EECB5E /* sound */,
+				77B18E84192A54B6002D5FDF /* musicpu */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
 				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
@@ -1980,9 +2083,11 @@
 				D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */,
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
 				D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */,
+				774A975F192BB57200EECB5E /* sound in Resources */,
 				D446FD6E16102124000ADA7B /* Default@2x.png in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
+				77B18E85192A54B6002D5FDF /* musicpu in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 			);
@@ -2042,6 +2147,7 @@
 				15A3D9241682F7D5002FB0C5 /* b2MouseJoint.cpp in Sources */,
 				15A3D9251682F7D5002FB0C5 /* b2PrismaticJoint.cpp in Sources */,
 				15A3D9261682F7D5002FB0C5 /* b2PulleyJoint.cpp in Sources */,
+				77B18EA4192A57D0002D5FDF /* Encyptor.cpp in Sources */,
 				15A3D9271682F7D5002FB0C5 /* b2RevoluteJoint.cpp in Sources */,
 				15A3D9281682F7D5002FB0C5 /* b2RopeJoint.cpp in Sources */,
 				15A3D9291682F7D5002FB0C5 /* b2WeldJoint.cpp in Sources */,
@@ -2119,6 +2225,7 @@
 				298B29C718D0668400C1920F /* WidgetReader.cpp in Sources */,
 				15A3DA521682F826002FB0C5 /* CCControlUtils.cpp in Sources */,
 				375BD4C41868411B0024609E /* TriggerBase.cpp in Sources */,
+				77B18EAA192A587B002D5FDF /* UserDataManager.cpp in Sources */,
 				298B29BB18D0668400C1920F /* CheckBoxReader.cpp in Sources */,
 				15A3DA531682F826002FB0C5 /* CCInvocation.cpp in Sources */,
 				15A3DA541682F826002FB0C5 /* CCScale9Sprite.cpp in Sources */,
@@ -2137,6 +2244,7 @@
 				15A3DAED1682F8A6002FB0C5 /* CocosDenshion.m in Sources */,
 				15A3DAEE1682F8A6002FB0C5 /* SimpleAudioEngine.mm in Sources */,
 				15A3DAEF1682F8A6002FB0C5 /* SimpleAudioEngine_objc.m in Sources */,
+				77B18EA7192A580F002D5FDF /* ShareCodeFactory.cpp in Sources */,
 				1A27573F1697CF2B00504026 /* CCEditBoxImplAndroid.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
@@ -2151,6 +2259,7 @@
 				298B29C618D0668400C1920F /* TextFieldReader.cpp in Sources */,
 				1A8F3B73175E05DA00049216 /* Attachment.cpp in Sources */,
 				1A8F3B74175E05DA00049216 /* AttachmentLoader.cpp in Sources */,
+				77B18E9B192A56F2002D5FDF /* LoadScene.cpp in Sources */,
 				1A8F3B75175E05DA00049216 /* Bone.cpp in Sources */,
 				1A8F3B76175E05DA00049216 /* BoneData.cpp in Sources */,
 				1A8F3B77175E05DA00049216 /* CCSkeleton.cpp in Sources */,
@@ -2186,6 +2295,7 @@
 				379BB9A517F03F3700829B88 /* CCColliderDetector.cpp in Sources */,
 				379BB9A617F03F3700829B88 /* CCArmatureDataManager.cpp in Sources */,
 				379BB9A717F03F3700829B88 /* CCArmatureDefine.cpp in Sources */,
+				77B18EA1192A5776002D5FDF /* PlayingMusic.cpp in Sources */,
 				379BB9A817F03F3700829B88 /* CCDataReaderHelper.cpp in Sources */,
 				379BB9A917F03F3700829B88 /* CCSpriteFrameCacheHelper.cpp in Sources */,
 				379BB9AA17F03F3700829B88 /* CCTransformHelp.cpp in Sources */,
@@ -2215,6 +2325,7 @@
 				379BB9C617F03F3700829B88 /* UILoadingBar.cpp in Sources */,
 				379BB9C717F03F3700829B88 /* UISlider.cpp in Sources */,
 				379BB9C917F03F3700829B88 /* UITextField.cpp in Sources */,
+				77B18E9E192A5716002D5FDF /* MainScene.cpp in Sources */,
 				379BB9CB17F03F3700829B88 /* DictionaryHelper.cpp in Sources */,
 				379BB9D317F03F3700829B88 /* GUIReader.cpp in Sources */,
 				379BB9D417F03F3700829B88 /* SceneReader.cpp in Sources */,

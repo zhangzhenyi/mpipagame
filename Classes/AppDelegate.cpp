@@ -17,6 +17,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     CCEGLView* pEGLView = CCEGLView::sharedOpenGLView();
 
     pDirector->setOpenGLView(pEGLView);
+    
+    //TODO set auto suit for screen size
 	
     // turn on display FPS
     pDirector->setDisplayStats(true);
