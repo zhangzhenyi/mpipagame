@@ -38,8 +38,8 @@ enum XianIndex{
 };
 
 //指法表
-#define SKILL_TAN "tan"
-#define SKILL_TIAO "tiao"
+#define SKILL_TAN "TAN"
+#define SKILL_TIAO "TIAO"
 
 
 //D调弦音位表 TODO, 弦，音调，品位，可以根据乐谱定义出弦位置

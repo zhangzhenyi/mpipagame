@@ -240,6 +240,8 @@
 		379BB9D317F03F3700829B88 /* GUIReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99117F03F3700829B88 /* GUIReader.cpp */; };
 		379BB9D417F03F3700829B88 /* SceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99317F03F3700829B88 /* SceneReader.cpp */; };
 		46513EB1187BFBA200B5ABE1 /* UITouchGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46513EAF187BFBA200B5ABE1 /* UITouchGroup.cpp */; };
+		7712008219379108003E5004 /* YuepuManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7712008019379108003E5004 /* YuepuManager.cpp */; };
+		77120087193791F3003E5004 /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77120085193791F3003E5004 /* SoundManager.cpp */; };
 		774A975F192BB57200EECB5E /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 774A975E192BB57200EECB5E /* sound */; };
 		77B18E85192A54B6002D5FDF /* musicpu in Resources */ = {isa = PBXBuildFile; fileRef = 77B18E84192A54B6002D5FDF /* musicpu */; };
 		77B18E9B192A56F2002D5FDF /* LoadScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77B18E98192A56F2002D5FDF /* LoadScene.cpp */; };
@@ -766,6 +768,11 @@
 		379BB99417F03F3700829B88 /* SceneReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneReader.h; sourceTree = "<group>"; };
 		46513EAF187BFBA200B5ABE1 /* UITouchGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UITouchGroup.cpp; sourceTree = "<group>"; };
 		46513EB0187BFBA200B5ABE1 /* UITouchGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchGroup.h; sourceTree = "<group>"; };
+		7712008019379108003E5004 /* YuepuManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YuepuManager.cpp; sourceTree = "<group>"; };
+		7712008119379108003E5004 /* YuepuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuepuManager.h; sourceTree = "<group>"; };
+		77120083193791AB003E5004 /* MusicalNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicalNote.h; sourceTree = "<group>"; };
+		77120085193791F3003E5004 /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
+		77120086193791F3003E5004 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		774A975D192BAEB400EECB5E /* GameMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMacroDefine.h; sourceTree = "<group>"; };
 		774A975E192BB57200EECB5E /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
 		77B18E84192A54B6002D5FDF /* musicpu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = musicpu; sourceTree = "<group>"; };
@@ -1984,6 +1991,11 @@
 		77B18E9A192A56F2002D5FDF /* yuepu */ = {
 			isa = PBXGroup;
 			children = (
+				7712008019379108003E5004 /* YuepuManager.cpp */,
+				7712008119379108003E5004 /* YuepuManager.h */,
+				77120083193791AB003E5004 /* MusicalNote.h */,
+				77120085193791F3003E5004 /* SoundManager.cpp */,
+				77120086193791F3003E5004 /* SoundManager.h */,
 			);
 			path = yuepu;
 			sourceTree = "<group>";
@@ -2209,6 +2221,7 @@
 				298B29C118D0668400C1920F /* ListViewReader.cpp in Sources */,
 				15A3DA451682F826002FB0C5 /* CCParticleSystemQuadLoader.cpp in Sources */,
 				15A3DA461682F826002FB0C5 /* CCScale9SpriteLoader.cpp in Sources */,
+				77120087193791F3003E5004 /* SoundManager.cpp in Sources */,
 				15A3DA471682F826002FB0C5 /* CCScrollViewLoader.cpp in Sources */,
 				15A3DA481682F826002FB0C5 /* CCSpriteLoader.cpp in Sources */,
 				15A3DA491682F826002FB0C5 /* CCControl.cpp in Sources */,
@@ -2224,6 +2237,7 @@
 				15A3DA511682F826002FB0C5 /* CCControlSwitch.cpp in Sources */,
 				298B29C718D0668400C1920F /* WidgetReader.cpp in Sources */,
 				15A3DA521682F826002FB0C5 /* CCControlUtils.cpp in Sources */,
+				7712008219379108003E5004 /* YuepuManager.cpp in Sources */,
 				375BD4C41868411B0024609E /* TriggerBase.cpp in Sources */,
 				77B18EAA192A587B002D5FDF /* UserDataManager.cpp in Sources */,
 				298B29BB18D0668400C1920F /* CheckBoxReader.cpp in Sources */,
