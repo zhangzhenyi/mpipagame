@@ -11,4 +11,23 @@
 
 #include <iostream>
 
+#include "cocos2d.h"
+
+USING_NS_CC;
+
+class LoadScene :public CCLayer{
+    
+    CCProgressTimer* progressBar;
+    
+    void tick(float delt);
+public:
+    
+    CREATE_FUNC(LoadScene);
+    
+    bool init();
+    
+    static CCScene* getScene();
+    
+};
+
 #endif /* defined(__mpipagame__LoadScene__) */

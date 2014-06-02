@@ -19,6 +19,22 @@ bool AppDelegate::applicationDidFinishLaunching() {
     pDirector->setOpenGLView(pEGLView);
     
     //TODO set auto suit for screen size
+    //自适应尺寸
+    CCSize screenSize=pEGLView->getFrameSize();
+    CCSize designSize = CCSizeMake(1366, 768);
+	CCSize frameSize = pDirector->getWinSize();
+    
+	float scaleX = (float)frameSize.width/designSize.width;
+    float scaleY = (float)frameSize.height/designSize.height;
+    float scale = 0.0f;
+    if(scaleX > scaleY){
+	    scale = scaleX/(frameSize.height/(float)designSize.height);
+    }else{
+	    scale = scaleY/(frameSize.width/(float)designSize.width);
+    }
+    
+    pEGLView->setDesignResolutionSize(designSize.width * scale,
+                                      designSize.height * scale, kResolutionNoBorder);
 	
     // turn on display FPS
     pDirector->setDisplayStats(true);

@@ -1,5 +1,8 @@
 #include "HelloWorldScene.h"
 
+#include "com/aiyou/pipa/view/LoadScene.h"
+
+
 USING_NS_CC;
 
 CCScene* HelloWorld::scene()
@@ -73,7 +76,21 @@ bool HelloWorld::init()
     // add the sprite as a child to this layer
     this->addChild(pSprite, 0);
     
+    //add load scene
+    CCMenuItemFont* menuItem = CCMenuItemFont::create("Click to load game", this, menu_selector( HelloWorld::menuLoadGame));
+    menuItem->setPosition(CCPointMake(origin.x/2 + visibleSize.width/2, visibleSize.height/2 - 200));
+    CCMenu* menu = CCMenu::create(menuItem,NULL);
+    menu->setAnchorPoint(CCPointZero);
+    menu->setPosition(CCPointZero);
+    this->addChild(menu);
+    
     return true;
+}
+
+void HelloWorld::menuLoadGame(CCObject* pSender){
+    CCScene* scene = CCTransitionZoomFlipY::create(0.2, LoadScene::getScene(), kCCTransitionOrientationDownOver);
+    
+    CCDirector::sharedDirector()->replaceScene(scene);
 }
 
 

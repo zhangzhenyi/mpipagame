@@ -7,3 +7,23 @@
 //
 
 #include "PlayingMusic.h"
+
+bool PlayingMusic::init(){
+    if(!CCLayer::init()){
+        return false;
+    }
+    SoundManager* manager = SoundManager::sharedManager();
+    
+    return true;
+    
+}
+
+CCScene* getScene(){
+    CCScene* scene = CCScene::create();
+    
+    CCLayer* layer = PlayingMusic::create();
+    scene->addChild(layer);
+    
+    return scene;
+
+}

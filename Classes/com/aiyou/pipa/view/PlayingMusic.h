@@ -11,4 +11,26 @@
 
 #include <iostream>
 
+#include "SoundManager.h"
+
+#include "cocos2d.h"
+
+
+#include <string>
+USING_NS_CC;
+using namespace std;
+
+class PlayingMusic :public CCLayer{
+    
+    
+public:
+    static CCScene* getScene();
+    
+    CREATE_FUNC(PlayingMusic);
+    
+    bool init();
+    
+    
+};
+
 #endif /* defined(__mpipagame__PlayingMusic__) */

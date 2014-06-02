@@ -3,8 +3,6 @@
 
 #include "cocos2d.h"
 
-#include "GameMacroDefine.h"
-
 class HelloWorld : public cocos2d::CCLayer
 {
 public:
@@ -19,6 +17,8 @@ public:
     
     // implement the "static node()" method manually
     CREATE_FUNC(HelloWorld);
+    
+    void menuLoadGame(CCObject* pSender);
 };
 
 #endif // __HELLOWORLD_SCENE_H__
