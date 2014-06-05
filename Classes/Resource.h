@@ -11,4 +11,6 @@
 
 #define LOAD_BAR_IMG "loadscene/loadbar.png"
 
+#define SOUND_CONF_FILE_NAME "sound/pipasound.plist"
+
 #endif

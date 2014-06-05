@@ -11,7 +11,7 @@
 
 #include <iostream>
 
-#include "SoundManager.h"
+//#include "SoundManager.h"
 
 #include "cocos2d.h"
 
@@ -21,8 +21,10 @@ USING_NS_CC;
 using namespace std;
 
 class PlayingMusic :public CCLayer{
+    int intervalSound = 15;
     
-    
+private:
+    void onScheduleTick(float dlet);
 public:
     static CCScene* getScene();
     

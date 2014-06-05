@@ -16,7 +16,7 @@
 USING_NS_CC;
 
 class MainScene :public CCScene {
-    
+    void callbackMenuSelected(CCObject* pSender);
     
 public:
     bool init();
