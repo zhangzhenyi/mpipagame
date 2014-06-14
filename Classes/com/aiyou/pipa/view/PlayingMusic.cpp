@@ -18,7 +18,7 @@ bool PlayingMusic::init(){
     double inteval = CCDirector::sharedDirector()->getAnimationInterval();
     this->schedule(schedule_selector(PlayingMusic::onScheduleTick), inteval);
     
-    
+    currYuepu = YuepuManager::sharedManager()->getYuepuByName(MUSIC_1_NAME);
     return true;
     
 }
@@ -62,10 +62,29 @@ void PlayingMusic::onScheduleTick(float dlet){
         array->addObject(CCString::create("7."));
         CCString* scaleId = (CCString*)array->randomObject();
         string scaleIndex = scaleId->m_sString;
+        
+        
+        MusicNote* mnote = getNextNote();
+        if(mnote){
+            CCLog("mnote %s", mnote->getSkill().c_str());
+        }
+        
+        
         SoundManager::sharedManager()->playEffect(bNoteTypeDef, strIndex, hIndex, scaleIndex, 1);
         
     }
     
+}
+
+MusicNote* PlayingMusic::getNextNote(){
+    if(!currYuepu) return NULL;
+    if(noteIndex < currYuepu->getContent()->count()){
+        MusicNote* mnote = dynamic_cast<MusicNote* >(currYuepu->getContent()->objectAtIndex(noteIndex));
+        return mnote;
+    }
+    
+    
+    noteIndex++;
 }
 
 CCScene* PlayingMusic::getScene(){

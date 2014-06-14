@@ -12,6 +12,9 @@
 #include <iostream>
 
 //#include "SoundManager.h"
+#include "../yuepu/MusicalNote.h"
+#include "../yuepu/Yuepu.h"
+#include "../yuepu/YuepuManager.h"
 
 #include "cocos2d.h"
 
@@ -22,9 +25,14 @@ using namespace std;
 
 class PlayingMusic :public CCLayer{
     int intervalSound = 15;
+    Yuepu* currYuepu;
     
 private:
     void onScheduleTick(float dlet);
+    
+    /***音符索引位置，每次取出一个音符，数量加一**/
+    int noteIndex =0;
+    MusicNote* getNextNote();
 public:
     static CCScene* getScene();
     

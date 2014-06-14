@@ -771,6 +771,7 @@
 		379BB99417F03F3700829B88 /* SceneReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneReader.h; sourceTree = "<group>"; };
 		46513EAF187BFBA200B5ABE1 /* UITouchGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UITouchGroup.cpp; sourceTree = "<group>"; };
 		46513EB0187BFBA200B5ABE1 /* UITouchGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchGroup.h; sourceTree = "<group>"; };
+		7714E457194C931600DD87ED /* Yuepu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuepu.h; sourceTree = "<group>"; };
 		7740A937193C1D9600A054B8 /* LoadScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadScene.cpp; sourceTree = "<group>"; };
 		7740A938193C1D9600A054B8 /* LoadScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadScene.h; sourceTree = "<group>"; };
 		777B67EA193B8B0400F52BBA /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
@@ -1980,6 +1981,7 @@
 				77AC538E193C2617005D8E8F /* YuepuManager.h */,
 				77AC5386193C21DE005D8E8F /* SoundManager.cpp */,
 				77AC5387193C21DE005D8E8F /* SoundManager.h */,
+				7714E457194C931600DD87ED /* Yuepu.h */,
 			);
 			path = yuepu;
 			sourceTree = "<group>";
