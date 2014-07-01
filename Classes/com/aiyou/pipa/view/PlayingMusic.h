@@ -24,8 +24,15 @@ USING_NS_CC;
 using namespace std;
 
 class PlayingMusic :public CCLayer{
-    int intervalSound = 15;
+    int intervalSound = 15;//播放下一个音符需要间隔tick数量
     Yuepu* currYuepu;
+    
+    MusicNote* mnote;//当前要播放的音节内容
+    
+    CCMenuItemImage *stringBtn1;
+    CCMenuItemImage *stringBtn2;
+    CCMenuItemImage *stringBtn3;
+    CCMenuItemImage *stringBtn4;
     
 private:
     void onScheduleTick(float dlet);
@@ -33,6 +40,12 @@ private:
     /***音符索引位置，每次取出一个音符，数量加一**/
     int noteIndex =0;
     MusicNote* getNextNote();
+    
+    double inteval;//schedule间隔时间
+    double intevalTimePerBeat;//每一拍的时间
+    
+    void onNoteClicked(CCObject* pSender);
+    
 public:
     static CCScene* getScene();
     

@@ -21,7 +21,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     //TODO set auto suit for screen size
     //自适应尺寸
     CCSize screenSize=pEGLView->getFrameSize();
-    CCSize designSize = CCSizeMake(1366, 768);
+    CCSize designSize = CCSizeMake(768,1366);
 	CCSize frameSize = pDirector->getWinSize();
     
 	float scaleX = (float)frameSize.width/designSize.width;

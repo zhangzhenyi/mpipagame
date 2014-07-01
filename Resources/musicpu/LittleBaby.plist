@@ -14,11 +14,11 @@
 	<array>
 		<dict>
 			<key>handler</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TAN</string>
 			<key>note</key>
-			<real>0.25</real>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -31,11 +31,11 @@
 		</dict>
 		<dict>
 			<key>handler</key>
-			<integer>4</integer>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TIAO</string>
 			<key>note</key>
-			<real>0.25</real>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -48,28 +48,28 @@
 		</dict>
 		<dict>
 			<key>handler</key>
-			<integer>4</integer>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TAN</string>
 			<key>note</key>
-			<real>0.5</real>
-			<key>scales</key>
-			<array>
-				<dict>
-					<key>scale</key>
-					<string>5</string>
-					<key>string_index</key>
-					<integer>1</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>handler</key>
 			<integer>2</integer>
+			<key>scales</key>
+			<array>
+				<dict>
+					<key>scale</key>
+					<string>5</string>
+					<key>string_index</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>handler</key>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TAN</string>
 			<key>note</key>
-			<real>0.25</real>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -82,28 +82,11 @@
 		</dict>
 		<dict>
 			<key>handler</key>
-			<integer>3</integer>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TIAO</string>
 			<key>note</key>
-			<real>0.25</real>
-			<key>scales</key>
-			<array>
-				<dict>
-					<key>scale</key>
-					<string>1</string>
-					<key>string_index</key>
-					<integer>2</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>handler</key>
-			<integer>3</integer>
-			<key>skill</key>
-			<string>TAN</string>
-			<key>note</key>
-			<real>0.5</real>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -120,7 +103,24 @@
 			<key>skill</key>
 			<string>TAN</string>
 			<key>note</key>
-			<real>0.25</real>
+			<integer>2</integer>
+			<key>scales</key>
+			<array>
+				<dict>
+					<key>scale</key>
+					<string>1</string>
+					<key>string_index</key>
+					<integer>2</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>handler</key>
+			<integer>1</integer>
+			<key>skill</key>
+			<string>TAN</string>
+			<key>note</key>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -133,96 +133,96 @@
 		</dict>
 		<dict>
 			<key>handler</key>
+			<integer>1</integer>
+			<key>skill</key>
+			<string>TIAO</string>
+			<key>note</key>
+			<integer>1</integer>
+			<key>scales</key>
+			<array>
+				<dict>
+					<key>scale</key>
+					<string>3</string>
+					<key>string_index</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>handler</key>
+			<integer>1</integer>
+			<key>skill</key>
+			<string>TAN</string>
+			<key>note</key>
+			<integer>1</integer>
+			<key>scales</key>
+			<array>
+				<dict>
+					<key>scale</key>
+					<string>4</string>
+					<key>string_index</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>handler</key>
+			<integer>1</integer>
+			<key>skill</key>
+			<string>TIAO</string>
+			<key>note</key>
+			<integer>1</integer>
+			<key>scales</key>
+			<array>
+				<dict>
+					<key>scale</key>
+					<string>4</string>
+					<key>string_index</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>handler</key>
+			<integer>1</integer>
+			<key>skill</key>
+			<string>TAN</string>
+			<key>note</key>
+			<integer>1</integer>
+			<key>scales</key>
+			<array>
+				<dict>
+					<key>scale</key>
+					<string>3</string>
+					<key>string_index</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>handler</key>
+			<integer>1</integer>
+			<key>skill</key>
+			<string>TIAO</string>
+			<key>note</key>
+			<integer>1</integer>
+			<key>scales</key>
+			<array>
+				<dict>
+					<key>scale</key>
+					<string>4</string>
+					<key>string_index</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>handler</key>
+			<integer>1</integer>
+			<key>skill</key>
+			<string>TAN</string>
+			<key>note</key>
 			<integer>2</integer>
-			<key>skill</key>
-			<string>TIAO</string>
-			<key>note</key>
-			<real>0.25</real>
-			<key>scales</key>
-			<array>
-				<dict>
-					<key>scale</key>
-					<string>3</string>
-					<key>string_index</key>
-					<integer>1</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>handler</key>
-			<integer>3</integer>
-			<key>skill</key>
-			<string>TAN</string>
-			<key>note</key>
-			<real>0.25</real>
-			<key>scales</key>
-			<array>
-				<dict>
-					<key>scale</key>
-					<string>4</string>
-					<key>string_index</key>
-					<integer>1</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>handler</key>
-			<integer>3</integer>
-			<key>skill</key>
-			<string>TIAO</string>
-			<key>note</key>
-			<real>0.25</real>
-			<key>scales</key>
-			<array>
-				<dict>
-					<key>scale</key>
-					<string>4</string>
-					<key>string_index</key>
-					<integer>1</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>handler</key>
-			<integer>3</integer>
-			<key>skill</key>
-			<string>TAN</string>
-			<key>note</key>
-			<real>0.25</real>
-			<key>scales</key>
-			<array>
-				<dict>
-					<key>scale</key>
-					<string>3</string>
-					<key>string_index</key>
-					<integer>1</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>handler</key>
-			<integer>3</integer>
-			<key>skill</key>
-			<string>TIAO</string>
-			<key>note</key>
-			<real>0.25</real>
-			<key>scales</key>
-			<array>
-				<dict>
-					<key>scale</key>
-					<string>4</string>
-					<key>string_index</key>
-					<integer>1</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>handler</key>
-			<integer>3</integer>
-			<key>skill</key>
-			<string>TAN</string>
-			<key>note</key>
-			<real>0.5</real>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -235,11 +235,11 @@
 		</dict>
 		<dict>
 			<key>handler</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TAN</string>
 			<key>note</key>
-			<real>0.25</real>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -252,11 +252,11 @@
 		</dict>
 		<dict>
 			<key>handler</key>
-			<integer>4</integer>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TIAO</string>
 			<key>note</key>
-			<real>0.25</real>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -269,11 +269,11 @@
 		</dict>
 		<dict>
 			<key>handler</key>
-			<integer>4</integer>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TAN</string>
 			<key>note</key>
-			<real>0.25</real>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>
@@ -286,11 +286,11 @@
 		</dict>
 		<dict>
 			<key>handler</key>
-			<integer>4</integer>
+			<integer>1</integer>
 			<key>skill</key>
 			<string>TIAO</string>
 			<key>note</key>
-			<real>0.25</real>
+			<integer>1</integer>
 			<key>scales</key>
 			<array>
 				<dict>

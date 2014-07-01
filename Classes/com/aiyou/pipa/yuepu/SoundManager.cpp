@@ -32,6 +32,8 @@ void SoundManager::playEffect(NoteTypeDef noteType, int stringIndex, int hIndex,
     
     string hStr = "";
     switch (hIndex) {
+        case 0:
+            break;
         case 1:
             hStr = "_60";
             break;
